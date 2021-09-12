@@ -8,4 +8,4 @@
 -[ ] La résistance
 -[ ] Le condensateur
 
-@[Support de cours à lancer ]({"layout": "aside", "stubs": ["Pourquoi_Javascript/src/cours_Pourquoi_Javascript.js","Pourquoi_Javascript/src/cours_Pourquoi_Javascript.html","Pourquoi_Javascript/src/cours_Pourquoi_Javascript.css"], "command": "echo "TECHIO> open -s /project/target/ Pourquoi_Javascript/src/cours_Pourquoi_Javascript.html\"" })
+@[Support de cours à lancer ]({"layout": "aside", "stubs": ["Pourquoi_Javascript/src/cours_Pourquoi_Javascript.js","Pourquoi_Javascript/src/cours_Pourquoi_Javascript.html","Pourquoi_Javascript/src/cours_Pourquoi_Javascript.css"], "command": "echo \"TECHIO> open -s /project/target/ Pourquoi_Javascript/src/cours_Pourquoi_Javascript.html\"" })
