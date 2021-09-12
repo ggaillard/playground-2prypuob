@@ -1,0 +1,48 @@
+/* propriété "position: relative" sur le diaporama et retirer les éléments qui "dépassent" */
+.diapo{
+    position: relative;
+    overflow: hidden;
+}f
+
+/* Flèches à droite et à gauche*/
+
+#nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3em;
+}
+
+#nav-droite{
+    right: 20px;
+}
+#nav-gauche{
+    left: 20px;
+}
+
+/* les éléments côte à côte au moyen d'une flexbox et nous plaçons le texte au centre de chaque élément*/
+
+.elements{
+    display: flex;
+    transition: 1s linear;
+}
+
+.element{
+    flex: 1 0 100%;
+    position: relative;
+}
+
+.element > img{
+    width: 100%;
+}
+
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255,255,255,0.4);
+    padding: 30px;
+}

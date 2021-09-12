@@ -1,10 +1,14 @@
-title: Node.js Project
+title: Exercices DOM
 plan:
-- title: Welcome
-  statement: markdowns/welcome.md
+  - title: Manipulation du DOM en js vanilla
+    description: Manipulation du DOM en utilisant les fonctionnalités natives javascript.
+    plan:
+      - title: Pourquoi Javacript
+        statement: exercices/Pourquoi_Javascript/PourquoiJavascript.md
+  
 projects:
   nodejs:
-    root: /nodejs-project
+    root: /exercices
     runner:
       name: techio/node-npm-runner
       version: latest
