@@ -4,7 +4,7 @@ plan:
     description: Manipulation du DOM en utilisant les fonctionnalités natives javascript.
     plan:
       - title: Pourquoi Javacript
-        statement: exercices/Pourquoi_Javascript/PourquoiJavascript.md
+        statement: exercices/exo3/readme.md
   
 projects:
   nodejs:
